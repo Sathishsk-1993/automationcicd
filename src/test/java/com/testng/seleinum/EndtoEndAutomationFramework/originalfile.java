@@ -30,6 +30,7 @@ public class originalfile extends baseclass {
 	public void submittest(HashMap <String,String> input) throws IOException, InterruptedException {
 	
 		//Landingpage landingpage = launchapplication();
+//test
 		
 		Productcatalogue Productcatalogue = landingpage.logintoapplication(input.get("email"), input.get("password"));
 		
