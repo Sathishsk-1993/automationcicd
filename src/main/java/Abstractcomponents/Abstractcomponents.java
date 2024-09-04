@@ -36,6 +36,7 @@ public class Abstractcomponents {
 		getcartpage.click();
 		checkoutpage checkoutpage = new checkoutpage(driver);
 		return checkoutpage;
+//test
 	}
 	
 	
