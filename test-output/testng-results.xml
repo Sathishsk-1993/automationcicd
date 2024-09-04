@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-30T18:10:27Z" name="Default suite" finished-at="2024-08-30T18:10:42Z" duration-ms="14986">
+    <groups>
+      <group name="purchaseorder">
+        <method signature="originalfile.submittest(java.util.HashMap)[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" name="submittest" class="com.testng.seleinum.EndtoEndAutomationFramework.originalfile"/>
+      </group> <!-- purchaseorder -->
+    </groups>
+    <test started-at="2024-08-30T18:10:27Z" name="Default test" finished-at="2024-08-30T18:10:42Z" duration-ms="14986">
+      <class name="com.testng.seleinum.EndtoEndAutomationFramework.originalfile">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" started-at="2024-08-30T18:10:27Z" name="launchapplication" finished-at="2024-08-30T18:10:29Z" duration-ms="1844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submittest(java.util.HashMap)[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" started-at="2024-08-30T18:10:29Z" name="submittest" data-provider="getdata" finished-at="2024-08-30T18:10:34Z" duration-ms="4757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Sathishsk@007, email=sathishsk291993@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submittest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" started-at="2024-08-30T18:10:34Z" name="Teardown" finished-at="2024-08-30T18:10:34Z" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" started-at="2024-08-30T18:10:34Z" name="launchapplication" finished-at="2024-08-30T18:10:35Z" duration-ms="1247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="submittest(java.util.HashMap)[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" started-at="2024-08-30T18:10:35Z" name="submittest" data-provider="getdata" finished-at="2024-08-30T18:10:40Z" duration-ms="4788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ADIDAS ORIGINAL, password=Sathishsk@007, email=sathishsk291993@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submittest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" started-at="2024-08-30T18:10:40Z" name="Teardown" finished-at="2024-08-30T18:10:40Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" started-at="2024-08-30T18:10:40Z" name="launchapplication" finished-at="2024-08-30T18:10:41Z" duration-ms="1232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="gotoorderpage()[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" started-at="2024-08-30T18:10:41Z" name="gotoorderpage" finished-at="2024-08-30T18:10:42Z" depends-on-methods="com.testng.seleinum.EndtoEndAutomationFramework.originalfile.submittest" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoorderpage -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.testng.seleinum.EndtoEndAutomationFramework.originalfile@7582ff54]" started-at="2024-08-30T18:10:42Z" name="Teardown" finished-at="2024-08-30T18:10:42Z" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.testng.seleinum.EndtoEndAutomationFramework.originalfile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

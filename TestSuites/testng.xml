@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel ="tests" name="Suite">
+
+
+  <test thread-count="5" name="errormessage test">
+    <classes>
+     
+      <class name="com.testng.seleinum.EndtoEndAutomationFramework.errormessage"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test thread-count="5" name="originalfile test">
+    <classes>
+     
+    <class name="com.testng.seleinum.EndtoEndAutomationFramework.originalfile"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
+
+ 
